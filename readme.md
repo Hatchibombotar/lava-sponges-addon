@@ -17,6 +17,6 @@ Need more lava cleared? Compress your lava sponge by putting it in a 2x2 grid in
 You can even compress compressed lava sponges to get another 4 blocks of radius.
 
 Check out a video of the add-on in action:
-[https://youtu.be/pJxPcQXRp3A]()
+[https://youtu.be/pJxPcQXRp3A](https://youtu.be/pJxPcQXRp3A)
 
-[Download](https://github.com/Hatchibombotar/lava-sponges-addon/releases/download/latest-build/lava-sponges.addon)
+[Download](https://github.com/Hatchibombotar/lava-sponges-addon/releases/download/latest-build/lava_sponges.addon)
