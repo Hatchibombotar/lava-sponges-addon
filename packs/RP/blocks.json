@@ -1,0 +1,31 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "hatchi:lava_sponge": {
+    "textures": "lava_sponge",
+    "sound": "stone"
+  },
+  "hatchi:lava_sponge_compressed_x4": {
+    "textures": "lava_sponge_compressed_x4",
+    "sound": "stone"
+  },
+  "hatchi:lava_sponge_compressed_x16": {
+    "textures": "lava_sponge_compressed_x16",
+    "sound": "stone"
+  },
+  "hatchi:lava_sponge_molten": {
+    "textures": "lava_sponge_molten",
+    "sound": "stone"
+  },
+  "hatchi:lava_sponge_compressed_x4_molten": {
+    "textures": "lava_sponge_compressed_x4_molten",
+    "sound": "stone"
+  },
+  "hatchi:lava_sponge_compressed_x16_molten": {
+    "textures": "lava_sponge_compressed_x16_molten",
+    "sound": "stone"
+  }
+}

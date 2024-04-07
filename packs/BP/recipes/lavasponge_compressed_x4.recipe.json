@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hatchi:compress_sponge_x4_molten"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "hatchi:lava_sponge_molten"
+            }
+        },
+        "result": {
+            "item": "hatchi:lava_sponge_compressed_x4_molten",
+            "count": 1
+        },
+        "unlock": [
+            {
+                "item": "minecraft:basalt"
+            }
+        ]
+    }
+}

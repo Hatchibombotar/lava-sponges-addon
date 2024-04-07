@@ -1,0 +1,6 @@
+﻿tile.hatchi:lava_sponge.name=Lava Sponge
+tile.hatchi:lava_sponge_compressed_x4.name=Compressed Lava Sponge (x4)
+tile.hatchi:lava_sponge_compressed_x16.name=Compressed Lava Sponge (x16)
+tile.hatchi:lava_sponge_molten.name=Molten Lava Sponge
+tile.hatchi:lava_sponge_compressed_x4_molten.name=Compressed Molten Lava Sponge (x4)
+tile.hatchi:lava_sponge_compressed_x16_molten.name=Compressed Molten Lava Sponge (x16)

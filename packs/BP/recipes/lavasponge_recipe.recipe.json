@@ -1,0 +1,39 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hatchi:lava_sponge_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#M#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:basalt"
+            },
+            "M": {
+                "item": "minecraft:magma"
+            }
+        },
+        "result": {
+            "item": "hatchi:lava_sponge",
+            "count": 1
+        },
+        "unlock": [
+            {
+                "item": "minecraft:basalt"
+            },
+            {
+                "item": "minecraft:magma"
+            },
+            {
+                "item": "hatchi:lava_sponge"
+            }
+        ]
+    }
+}

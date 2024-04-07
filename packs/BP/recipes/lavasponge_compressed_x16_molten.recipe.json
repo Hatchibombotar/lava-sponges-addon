@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hatchi:compress_sponge_x16"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "hatchi:lava_sponge_compressed_x4"
+            }
+        },
+        "result": {
+            "item": "hatchi:lava_sponge_compressed_x16",
+            "count": 1
+        },
+        "unlock": [
+            {
+                "item": "minecraft:basalt"
+            },
+            {
+                "item": "minecraft:magma"
+            },
+            {
+                "item": "hatchi:lava_sponge"
+            }
+        ]
+    }
+}

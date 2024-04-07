@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Lava Sponge",
+    "description": "By Hatchibombotar",
+    "uuid": "0a58bd9e-485e-4d59-bf50-f94f43610ac7",
+    "version": [
+      2,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      70
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "62ef1082-89b0-4c6d-a4d5-a9677fa96096",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "95993261-ed5c-48ea-bf3f-d9596a8e731c",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    }
+  ]
+}

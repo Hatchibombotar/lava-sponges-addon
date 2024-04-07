@@ -1,0 +1,100 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.1.json",
+	"author": "Hatchibombotar",
+	"name": "Lava Sponges",
+	"packs": {
+		"behaviorPack": "./packs/BP",
+		"resourcePack": "./packs/RP"
+	},
+	"regolith": {
+		"dataPath": "./packs/data",
+		"filterDefinitions": {
+			"gametests": {
+				"url": "github.com/Bedrock-OSS/regolith-filters",
+				"version": "1.5.3"
+			},
+			"package": {
+				"url": "github.com/Hatchibombotar/useful-regolith-filters",
+				"version": "1.1.0"
+			},
+			"metadata": {
+				"url": "github.com/Hatchibombotar/useful-regolith-filters",
+				"version": "latest"
+			},
+			"import": {
+				"url": "github.com/Hatchibombotar/useful-regolith-filters",
+				"version": "latest"
+			}
+		},
+		"profiles": {
+			
+			"build": {
+				"export": {
+					"readOnly": false,
+					"target": "local"
+				},
+				"filters": [
+					{
+						"profile": "default"
+					},
+					{
+						"filter": "package",
+						"settings": {
+							"file_name": "build/lava_sponges",
+							"package": {
+								"mcaddon": {}
+							}
+						}
+					}
+				]
+			},
+			"default": {
+				"export": {
+					"readOnly": false,
+					"target": "development"
+				},
+				"filters": [
+					{
+						"filter": "gametests",
+						"settings": {
+							"buildOptions": {
+								"bundle": true,
+								"entryPoints": [
+									"BP/scripts/main.ts"
+								],
+								"format": "esm",
+								"minify": false,
+								"target": "es2020"
+							},
+							"moduleUUID": "8fc6e571-be33-4e46-9e22-bca99af3a9a2",
+							"modules": [
+								"@minecraft/server@1.9.0"
+							]
+						}
+					},
+					{
+						"filter": "import",
+						"settings": {
+							"imports": [
+								{
+									"from": "assets/pack_icon.png",
+									"to": "BP/pack_icon.png"
+								},
+								{
+									"from": "assets/pack_icon.png",
+									"to": "RP/pack_icon.png"
+								}
+							]
+						}
+					},
+					{
+						"filter": "metadata",
+						"settings": {
+							"url": "https://github.com/Hatchibombotar/lava-sponges-addon"
+						}
+					}
+                ]
+			}
+		}
+	}
+}

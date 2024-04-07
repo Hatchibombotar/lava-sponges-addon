@@ -1,0 +1,14 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hatchi:lava_sponge",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "tag:hatchi:lava_sponge": {}
+        }
+    }
+}
