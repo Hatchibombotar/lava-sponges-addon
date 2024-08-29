@@ -25,9 +25,7 @@ You can even compress compressed lava sponges to get another 4 blocks of radius.
 
 Check out a video of the add-on in action:
 
-<iframe style="display:table" src="https://www.youtube.com/embed/pJxPcQXRp3A" width="560" height="314" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
-[![Youtube Video](http://img.youtube.com/vi/pJxPcQXRp3A/0.jpg)](http://www.youtube.com/watch?v=pJxPcQXRp3A "Video Title")
+[Video](http://www.youtube.com/watch?v=pJxPcQXRp3A)
 
 ### Links
 [Source Code](https://github.com/Hatchibombotar/lava-sponges-addon)
