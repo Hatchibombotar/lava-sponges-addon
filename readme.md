@@ -1,8 +1,8 @@
 <div style="width:min(600px, 100%)">
 
-<h1>
-    <img alt="Pack Icon" width="50" height="50" style="display:inline-block;margin-right:8px;margin-left:0" src="https://raw.githubusercontent.com/Hatchibombotar/lava-sponges-addon/main/assets/pack_icon.png">
+<h1 style="padding-bottom:18px;">
     <span>Lava Sponges Add-On</span>
+    <img alt="Pack Icon" width="50" height="50" style="display:inline-block;margin-right:8px;margin-left:auto;float:right;" src="https://raw.githubusercontent.com/Hatchibombotar/lava-sponges-addon/main/assets/pack_icon.png">
 </h1>
 
 This add-on adds lava sponges. It can remove lava from spaces such as lava pools or even the nether!
@@ -27,12 +27,16 @@ Check out a video of the add-on in action:
 
 [Video](http://www.youtube.com/watch?v=pJxPcQXRp3A)
 
+<a href="http://www.youtube.com/watch?v=pJxPcQXRp3A" target="_blank">
+<img src="assets/hqdefault.webp" alt="Youtube Thumbnail">
+</a>
+
 ### Links
 [Source Code](https://github.com/Hatchibombotar/lava-sponges-addon)
 
 [Github Downloads](https://github.com/Hatchibombotar/lava-sponges-addon/releases/latest)
 
-[MCPEDL Page](https://www.curseforge.com/minecraft-bedrock/addons/lava-sponges-addon)
+[MCPEDL Page](https://mcpedl.com/lava-sponges-addon/)
 
 [Curseforge Page](https://www.curseforge.com/minecraft-bedrock/addons/lava-sponges-addon)
 
